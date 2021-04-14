@@ -294,7 +294,7 @@ MonoBehaviour:
   - {fileID: 506330170427758820, guid: 7b1a63b80804f79459563c3bbb08fbc8, type: 3}
   - {fileID: 506330170427758820, guid: 7b1a63b80804f79459563c3bbb08fbc8, type: 3}
   - {fileID: 506330170427758820, guid: 7b1a63b80804f79459563c3bbb08fbc8, type: 3}
-  time: 1
+  time: 0.75
 --- !u!1 &926993983
 GameObject:
   m_ObjectHideFlags: 0
