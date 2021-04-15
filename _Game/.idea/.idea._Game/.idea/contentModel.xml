@@ -10,7 +10,7 @@
         <e p="Scripts" t="Include">
           <e p="MoveAndSpawnSky.cs" t="Include" />
           <e p="MoveObjects.cs" t="Include" />
-          <e p="PlayerController.cs" t="Include" />
+          <e p="Player.cs" t="Include" />
           <e p="Spawnballoons.cs" t="Include" />
         </e>
       </e>

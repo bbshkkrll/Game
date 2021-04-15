@@ -11,9 +11,9 @@ public class MoveAndSpawnSky : MonoBehaviour
     {
         transform.Translate(Vector3.up * (speed * Time.deltaTime));
         
-        if (transform.position.y > 10.07f)
+        if (transform.position.y > 9.93f)
         {
-            Instantiate(sky, new Vector3(0, -10.14f, 0), Quaternion.identity);
+            Instantiate(sky, new Vector3(0, -9.98f, 0), Quaternion.identity);
             Destroy(gameObject);
         }
     }

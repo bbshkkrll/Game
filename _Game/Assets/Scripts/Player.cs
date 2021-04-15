@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,5 +13,13 @@ public class Player : MonoBehaviour
 
         Vector3 dir = new Vector3(horizontal, vertical, 0);
         transform.Translate(dir.normalized * Time.deltaTime * speed);
+    }
+
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.CompareTag("Balloon"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
