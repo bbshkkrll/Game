@@ -620,6 +620,7 @@ GameObject:
   - component: {fileID: 1885258793}
   - component: {fileID: 1885258792}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   - component: {fileID: 1885258794}
 =======
@@ -629,6 +630,8 @@ GameObject:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of de60607 (add key control)
+=======
+>>>>>>> parent of cdc8dbd (Merge pull request #1 from bbshkkrll/MyBranchMark)
   m_Layer: 0
   m_Name: parashutes
   m_TagString: Untagged
@@ -702,6 +705,7 @@ Transform:
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!114 &1885258794
 =======
@@ -757,6 +761,8 @@ MonoBehaviour:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of de60607 (add key control)
+=======
+>>>>>>> parent of cdc8dbd (Merge pull request #1 from bbshkkrll/MyBranchMark)
 --- !u!1001 &3925951499804472276
 PrefabInstance:
   m_ObjectHideFlags: 0
