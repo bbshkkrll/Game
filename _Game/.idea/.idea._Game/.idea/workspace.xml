@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ee554c8b-037d-4a44-9a21-7f55d1ff18a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/red_balloon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/red_balloon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +21,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/MoveAndSpawnSky.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MoveObjects.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Spawnballoons.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1r7g5vRgjz0kbKAvf5pxGTYm7Xz" />
@@ -83,7 +78,7 @@
       <workItem from="1618386898984" duration="3380000" />
       <workItem from="1618406296449" duration="2142000" />
       <workItem from="1618420680384" duration="220000" />
-      <workItem from="1618498120711" duration="1456000" />
+      <workItem from="1618498120711" duration="782000" />
     </task>
     <servers />
   </component>

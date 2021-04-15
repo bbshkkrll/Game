@@ -9,8 +9,9 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
+//float vertical = Input.GetAxisRaw("Vertical");
+
         Vector3 dir = new Vector3(horizontal, 0, 0);
-        
         transform.Translate(dir.normalized * Time.deltaTime * speed);
     }
 }
