@@ -15,6 +15,14 @@ public class Player : MonoBehaviour
         transform.Translate(dir.normalized * Time.deltaTime * speed);
     }
 
+    private void OnCollisionStay2D(Collision2D collision2D)
+    {
+        if (collision2D.gameObject.CompareTag("Balloon"))
+        {
+            Destroy(gameObject);
+        }
+    }
+
     private void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject.CompareTag("Balloon"))
