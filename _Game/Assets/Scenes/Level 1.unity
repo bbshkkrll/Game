@@ -148,7 +148,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427145797}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.1326656, y: 0.004454136, z: 0.84253716}
+  m_LocalPosition: {x: -1.132666, y: 0.004454136, z: 0.8425372}
   m_LocalScale: {x: 1.1, y: 1.1, z: 1.1}
   m_Children:
   - {fileID: 468115854}
@@ -418,6 +418,7 @@ GameObject:
   - component: {fileID: 730718262}
   - component: {fileID: 730718265}
   - component: {fileID: 730718266}
+  - component: {fileID: 730718263}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -446,6 +447,25 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 6
+--- !u!95 &730718263
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730718261}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 45475591aafa227468ca2f9cf3b9977e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!4 &730718264
 Transform:
   m_ObjectHideFlags: 0
@@ -454,7 +474,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 730718261}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.28, y: 3.22, z: -0.84253716}
+  m_LocalPosition: {x: 2.27, y: 3.22, z: -0.84253716}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 427145798}
@@ -777,7 +797,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1043772462}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.36363602, y: 0.00999998, z: 0}
+  m_LocalPosition: {x: 0.317, y: 0.00999998, z: 0}
   m_LocalScale: {x: 0.90909094, y: 0.90909094, z: 0.90909094}
   m_Children: []
   m_Father: {fileID: 427145798}
@@ -956,7 +976,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1605284675}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.015454726, y: 0.17818181, z: 0}
+  m_LocalPosition: {x: -0.002, y: 0.16, z: 0}
   m_LocalScale: {x: 0.90909094, y: 0.90909094, z: 0.90909094}
   m_Children: []
   m_Father: {fileID: 427145798}
