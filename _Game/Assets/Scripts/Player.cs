@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
         float vertical = Input.GetAxisRaw("Vertical");
 
         Vector3 dir = new Vector3(horizontal, vertical, 0);
-        transform.Translate(dir.normalized * Time.deltaTime * speed);
+        transform.Translate(dir.normalized * (Time.deltaTime * speed));
     }
 
     private void OnCollisionStay2D(Collision2D collision2D)
@@ -23,11 +23,11 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnCollisionStay(Collision collision)
+    /*private void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject.CompareTag("Balloon"))
         {
             Destroy(gameObject);
         }
-    }
+    }*/
 }
