@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
     {
         if (collision2D.gameObject.CompareTag("Balloon"))
         {
-            Destroy(gameObject);
+            Destroy(collision2D.gameObject);
         }
     }
 
