@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    public int maxHealt = 100;
+    public int maxHealt = 3;
     public int currentHealth;
     public HealthBar healthBar;
         
@@ -20,19 +20,19 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        var horizontal = Input.GetAxisRaw("Horizontal");
-        var vertical = Input.GetAxisRaw("Vertical");
+        float horizontal = Input.GetAxisRaw("Horizontal");
+        float vertical = Input.GetAxisRaw("Vertical");
 
-        var dir = new Vector3(horizontal, vertical, 0);
+        Vector3 dir = new Vector3(horizontal, vertical, 0);
         transform.Translate(dir.normalized * (Time.deltaTime * speed));
     }
 
     private void OnCollisionStay2D(Collision2D collision2D)
     {
-        if (collision2D.gameObject.CompareTag("Bird"))
+        if (collision2D.gameObject.CompareTag("Balloon"))
         {
             TakeDamage(1);
-            //Destroy(collision2D.gameObject);
+            Destroy(collision2D.gameObject);
         }
     }
 
