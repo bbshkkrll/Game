@@ -705,7 +705,7 @@ GameObject:
   - component: {fileID: 730718263}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1053,13 +1053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8726f6c3d7611d4299282784848b5e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  balloons:
-  - {fileID: 506330170427758820, guid: 7b1a63b80804f79459563c3bbb08fbc8, type: 3}
-  - {fileID: 506330170427758820, guid: 7b1a63b80804f79459563c3bbb08fbc8, type: 3}
-  - {fileID: 506330170427758820, guid: 7b1a63b80804f79459563c3bbb08fbc8, type: 3}
-  - {fileID: 506330170427758820, guid: 7b1a63b80804f79459563c3bbb08fbc8, type: 3}
-  - {fileID: 506330170427758820, guid: 7b1a63b80804f79459563c3bbb08fbc8, type: 3}
-  - {fileID: 506330170427758820, guid: 7b1a63b80804f79459563c3bbb08fbc8, type: 3}
+  coins: {fileID: 0}
   time: 0.75
 --- !u!1 &926993983
 GameObject:
@@ -2104,3 +2098,73 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d5a61ecf506c01941b5587e699241de7, type: 3}
+--- !u!1001 &8880110121104576867
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3035114187391238207, guid: 61d4b1f1241eb9c409690dfc1d3dcd35, type: 3}
+      propertyPath: spawnRate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087236613410389420, guid: 61d4b1f1241eb9c409690dfc1d3dcd35, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087236613410389420, guid: 61d4b1f1241eb9c409690dfc1d3dcd35, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087236613410389420, guid: 61d4b1f1241eb9c409690dfc1d3dcd35, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087236613410389420, guid: 61d4b1f1241eb9c409690dfc1d3dcd35, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1021.9882
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087236613410389420, guid: 61d4b1f1241eb9c409690dfc1d3dcd35, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087236613410389420, guid: 61d4b1f1241eb9c409690dfc1d3dcd35, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087236613410389420, guid: 61d4b1f1241eb9c409690dfc1d3dcd35, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087236613410389420, guid: 61d4b1f1241eb9c409690dfc1d3dcd35, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087236613410389420, guid: 61d4b1f1241eb9c409690dfc1d3dcd35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087236613410389420, guid: 61d4b1f1241eb9c409690dfc1d3dcd35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5087236613410389420, guid: 61d4b1f1241eb9c409690dfc1d3dcd35, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317534828896879981, guid: 61d4b1f1241eb9c409690dfc1d3dcd35, type: 3}
+      propertyPath: m_Name
+      value: coins
+      objectReference: {fileID: 0}
+    - target: {fileID: 8322215936738886081, guid: 61d4b1f1241eb9c409690dfc1d3dcd35, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8322215936738886081, guid: 61d4b1f1241eb9c409690dfc1d3dcd35, type: 3}
+      propertyPath: m_GravityScale
+      value: -2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 61d4b1f1241eb9c409690dfc1d3dcd35, type: 3}
