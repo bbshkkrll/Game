@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5087236613410389420}
-  - component: {fileID: 3035114187391238207}
   - component: {fileID: 8880110121388157353}
   - component: {fileID: 8880110121388157354}
   - component: {fileID: -8688067696961633986}
@@ -36,20 +35,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3035114187391238207
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7317534828896879981}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8726f6c3d7611d4299282784848b5e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coins: {fileID: 7317534828896879981}
-  time: 0
 --- !u!58 &8880110121388157353
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -160,10 +145,10 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
+  m_Mass: 0.5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0
+  m_GravityScale: -1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
