@@ -11,8 +11,8 @@ public class Coins : MonoBehaviour
 
     void Update()
     {
-        if (transform.position.y > -8f)
-            Destroy(gameObject);
+        //if (transform.position.y > -8f)
+         //   Destroy(gameObject);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
