@@ -1,36 +1,27 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MoveAndSpawnSky : MonoBehaviour
 {
-    public float speed = 1.5f;
-    public GameObject sky;
-    public GameObject finishSky;
+    public GameObject[] sky;
+    public float time = 10f;
     public int finishCount = 5;
-    public int finishSkyCount = 0;
-    private void Update()
-    {
-        transform.Translate(Vector3.up * (speed * Time.deltaTime));
-        
-        if (MoneyText.Coin < finishCount)
-        {
 
-            if (transform.position.y > 9.93f)
-            {
-                Instantiate(sky, new Vector3(0, -9.98f, 0), Quaternion.identity);
-                Destroy(gameObject);
-            }
-        }
-        else
+    void Start()
+    {
+        StartCoroutine(SpawnRedBalloons());
+    }
+
+    IEnumerator SpawnRedBalloons()
+    {
+        while (true)
         {
-            if (transform.position.y > 9.93f && finishSkyCount < 2)
-            {
-                finishSkyCount++;
-                Instantiate(sky, new Vector3(0, -9.98f, 0), Quaternion.identity);
-                Destroy(gameObject);
-            }
+            Instantiate(sky[Random.Range(0, sky.Length - 1)],
+                    new Vector3(0, -10f, 0),
+                    Quaternion.identity);
+                yield return new WaitForSeconds(time);
+            
         }
     }
 }

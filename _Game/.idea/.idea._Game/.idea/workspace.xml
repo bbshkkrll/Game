@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee554c8b-037d-4a44-9a21-7f55d1ff18a9" name="Default Changelist" comment="">
+    <list default="true" id="ee554c8b-037d-4a44-9a21-7f55d1ff18a9" name="Default Changelist" comment="Add a">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/coin.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/coin.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/sky.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/sky.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveAndSpawnSky.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveAndSpawnSky.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Spawncoins.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Spawncoins.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveObjects.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/mov_red_balloon.cs" />
       <option value="$PROJECT_DIR$/Assets/NewBehaviourScript.cs" />
       <option value="$PROJECT_DIR$/Assets/MoveAndSpawn.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MoveObjects.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Spawnballoons.cs" />
       <option value="$PROJECT_DIR$/Assets/MainMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
@@ -45,7 +46,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SpawnBalloons.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Spawncoins.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MoveObjects.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MoveAndSpawnSky.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MoveSky.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1r7g5vRgjz0kbKAvf5pxGTYm7Xz" />
@@ -116,6 +119,8 @@
       <workItem from="1619539115252" duration="1283000" />
       <workItem from="1619621256717" duration="9678000" />
       <workItem from="1620115922883" duration="2592000" />
+      <workItem from="1620200319745" duration="3509000" />
+      <workItem from="1620231152183" duration="4230000" />
     </task>
     <servers />
   </component>

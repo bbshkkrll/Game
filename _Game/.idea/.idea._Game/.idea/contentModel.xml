@@ -219,7 +219,9 @@
           <e p="MainMenu.cs" t="Include" />
           <e p="MoneyText.cs" t="Include" />
           <e p="MoveAndSpawnSky.cs" t="Include" />
+          <e p="MoveFInish.cs" t="Include" />
           <e p="MoveObjects.cs" t="Include" />
+          <e p="MoveSky.cs" t="Include" />
           <e p="PauseMenu.cs" t="Include" />
           <e p="Player.cs" t="Include" />
           <e p="SpawnBalloons.cs" t="Include" />
