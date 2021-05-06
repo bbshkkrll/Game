@@ -1208,6 +1208,7 @@ MonoBehaviour:
   coins:
   - {fileID: 7317534828896879981, guid: 61d4b1f1241eb9c409690dfc1d3dcd35, type: 3}
   time: 0.75
+  finishCount: 5
 --- !u!1 &926993983
 GameObject:
   m_ObjectHideFlags: 0
@@ -1234,7 +1235,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926993983}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0011, y: 9.92, z: 0}
+  m_LocalPosition: {x: 0, y: 9.92, z: 0}
   m_LocalScale: {x: 0.46877977, y: 0.52402526, z: 0.49686}
   m_Children: []
   m_Father: {fileID: 621030140}
@@ -1254,6 +1255,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1.5
   sky: {fileID: 926993983}
+  finishSky: {fileID: 0}
+  finishCount: 5
+  finishSkyCount: 0
 --- !u!212 &926993986
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1534,6 +1538,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 1.5
   sky: {fileID: 1307868919}
+  finishSky: {fileID: 0}
+  finishCount: 5
+  finishSkyCount: 0
 --- !u!212 &1307868922
 SpriteRenderer:
   m_ObjectHideFlags: 0
