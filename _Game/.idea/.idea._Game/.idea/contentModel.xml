@@ -213,6 +213,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Coins.cs" t="Include" />
+          <e p="Enabler.cs" t="Include" />
           <e p="EnemyAI.cs" t="Include" />
           <e p="EnemyGFX.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
