@@ -11,7 +11,7 @@ public class MoveObjects : MonoBehaviour
     {
         transform.Translate(Vector3.up * (speed * Time.deltaTime));
 
-        if (transform.position.y > 7.5f)
+        if (transform.position.y > 10.53f)
         {
             Destroy(gameObject);
         }
