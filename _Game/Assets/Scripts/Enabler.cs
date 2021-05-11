@@ -7,29 +7,33 @@ public class Enabler : MonoBehaviour
 {
     public GameObject birdFirst;
     public GameObject birdSecond;
+    public GameObject bird3;
     [SerializeField]
-    public float timeSleep = 4f;
+    public float timer1 = 4f;
     [SerializeField]
-    public float sleepTimer = 15f;
+    public float timer2 = 15f;
 
-    void Start()
+    public float timer3 = 10f;
+
+    /*void Start()
     {
         birdFirst.SetActive(false);
         birdSecond.SetActive(false);
-    }
+    }*/
 
     void Update()
     {
-        timeSleep -= Time.deltaTime;
-        sleepTimer -= Time.deltaTime;
-        if (timeSleep <= 0f)
-        {
+        timer1 -= Time.deltaTime;
+        timer2 -= Time.deltaTime;
+        timer3 -= Time.deltaTime;
+        if (timer1 <= 0f) 
             birdFirst.SetActive(true);
-        }
 
-        if (sleepTimer <= 0f)
-        {
+        if (timer2 <= 0f) 
             birdSecond.SetActive(true);
-        }
+
+        if (timer3 <= 0f)
+            bird3.SetActive(true);
     }
+    
 }
