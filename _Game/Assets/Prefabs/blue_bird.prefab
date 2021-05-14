@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 2764995133376111075}
   - component: {fileID: 752183600593092533}
   - component: {fileID: 1498252941324243311}
-  - component: {fileID: 8155888022833048698}
   - component: {fileID: -7463788942449444382}
+  - component: {fileID: -4022915764847441816}
   m_Layer: 0
   m_Name: blue_bird
   m_TagString: Bird
@@ -104,32 +104,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!61 &8155888022833048698
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2129711486640984132}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.007276058, y: 0.17826326}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6, y: 1.2}
-    newSize: {x: 1.6, y: 1.2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.1052284, y: 0.37780604}
-  m_EdgeRadius: 0
 --- !u!114 &-7463788942449444382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,4 +117,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aiPath: {fileID: 0}
-  bird: {fileID: 2129711486640984132}
+--- !u!58 &-4022915764847441816
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129711486640984132}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.3
