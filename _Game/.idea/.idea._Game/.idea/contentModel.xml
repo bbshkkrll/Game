@@ -214,8 +214,10 @@
         <e p="Scripts" t="Include">
           <e p="Coins.cs" t="Include" />
           <e p="Enabler.cs" t="Include" />
+          <e p="EndTrigger.cs" t="Include" />
           <e p="EnemyAI.cs" t="Include" />
           <e p="EnemyGFX.cs" t="Include" />
+          <e p="GameManagger.cs" t="Include" />
           <e p="HealthBar.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="MoneyText.cs" t="Include" />
@@ -225,6 +227,7 @@
           <e p="MoveSky.cs" t="Include" />
           <e p="PauseMenu.cs" t="Include" />
           <e p="Player.cs" t="Include" />
+          <e p="ScoreCounter.cs" t="Include" />
           <e p="SpawnBalloons.cs" t="Include" />
           <e p="Spawncoins.cs" t="Include" />
         </e>

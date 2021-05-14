@@ -13,24 +13,29 @@ public class MoveSky : MonoBehaviour
 
     private static bool isFinishNotSpawned = true;
 
+    private bool isSpanw = true;
+
     public void FixedUpdate()
     {
         transform.Translate(Vector3.up * (speed * Time.deltaTime));
 
+       
         if (MoneyText.Coin < finishCount)
         {
-            if (transform.position.y > 10.53f)
+            if (transform.position.y >= 0.0239f && isSpanw)
             {
+                isSpanw = false;
                 Instantiate(sky, new Vector2(0, -9.98f), Quaternion.identity);
-                Destroy(gameObject);
             }
         }
         else
         {
-            if (transform.position.y > 10.53f && isFinishNotSpawned)
+            if (transform.position.y >= 0.0239f && isFinishNotSpawned)
             {
                 Instantiate(finishSky, new Vector2(0, -9.98f), Quaternion.identity);
                 isFinishNotSpawned = false;
+                if (transform.position.y >= 10.9f)
+                    Destroy(gameObject);
             }
         }
     }
