@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee554c8b-037d-4a44-9a21-7f55d1ff18a9" name="Default Changelist" comment="Add a">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/blue_bird.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/blue_bird.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/red_balloon.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/red_balloon.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enabler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enabler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyGFX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyGFX.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/finish.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/finish.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +47,8 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/HeroSats.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyGFX.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EndTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
     </changedPaths>
   </component>
@@ -127,6 +125,7 @@
       <workItem from="1620289031382" duration="5937000" />
       <workItem from="1620713893467" duration="3448000" />
       <workItem from="1620749074456" duration="4007000" />
+      <workItem from="1620999678004" duration="2102000" />
     </task>
     <servers />
   </component>
