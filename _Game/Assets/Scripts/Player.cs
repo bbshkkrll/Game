@@ -10,6 +10,8 @@ public class Player : MonoBehaviour
     public float currentHealth;
     public HealthBar healthBar;
     private bool trigger;
+
+    public GameManager gameManager;
         
         
     public float speed = 5f;
@@ -33,7 +35,7 @@ public class Player : MonoBehaviour
     {
         if (trigger)
         {
-            TakeDamage(5);
+            TakeDamage(50);
         }
     }
     
@@ -46,7 +48,7 @@ public class Player : MonoBehaviour
         if (currentHealth < 0)
         {
             currentHealth = 0;
-            //Destroy(gameObject);
+            gameManager.EndGame();
         }
     }
 
