@@ -1,30 +1,25 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class GameManagger : MonoBehaviour
 {
-    private bool gameHasEnded = false;
+   // private bool gameHasEnded = false;
 
-    public float restartDelay = 0.3f;
+    //public float restartDelay = 0.1f;
 
     public GameObject compliteLevelUI;
+    public GameObject restartLevelUI;
+
     public void CompleteLevel()
     {
         compliteLevelUI.SetActive(true);
         Time.timeScale = 0f;
     }
 
+    // ReSharper disable Unity.PerformanceAnalysis
     public void EndGame()
     {
-        if (gameHasEnded == false)
-        {
-            gameHasEnded = true;
-            Debug.Log("Game Over");
-            Invoke("Restart", restartDelay);
-        }
+        restartLevelUI.SetActive(true);
+        //Time.timeScale = 0f;
     }
-    void Restart()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
-    }
-
 }

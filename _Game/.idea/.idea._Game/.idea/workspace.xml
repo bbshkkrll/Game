@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee554c8b-037d-4a44-9a21-7f55d1ff18a9" name="Default Changelist" comment="Add a">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/GameManager 1 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/GameManager 1 1.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/finish.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/finish.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveSky.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveSky.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManagger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManagger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +47,10 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/HeroSats.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyGFX.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EndTrigger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MoveSky.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/NewGameMenu.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManagger.cs" />
     </changedPaths>
   </component>
@@ -131,6 +128,7 @@
       <workItem from="1620713893467" duration="3448000" />
       <workItem from="1620749074456" duration="4007000" />
       <workItem from="1621010311960" duration="3440000" />
+      <workItem from="1621147204775" duration="2594000" />
     </task>
     <servers />
   </component>

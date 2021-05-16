@@ -49,6 +49,7 @@ public class Player : MonoBehaviour
         {
             currentHealth = 0;
             eventManager.EndGame();
+            Destroy(gameObject);
         }
     }
 
