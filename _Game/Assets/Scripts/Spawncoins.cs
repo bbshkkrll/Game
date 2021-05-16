@@ -7,7 +7,7 @@ public class Spawncoins : MonoBehaviour
     [SerializeField]
     public GameObject[] coins;
     [SerializeField]
-    public float time = 100f;
+    public float time = 3f;
 
     public int finishCount = 5;
     void Start()
