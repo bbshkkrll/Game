@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Coins : MonoBehaviour
+public class Balloons : MonoBehaviour
 {
     void Start()
     {
@@ -12,14 +12,13 @@ public class Coins : MonoBehaviour
     void Update()
     {
         if (transform.position.y > 8f)
-            gameObject.SetActive(false);
-            //Destroy(gameObject);
+            Destroy(gameObject);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            MoneyText.Coin++;
+            BalloonsText.Balloon++;
             Destroy(gameObject);
         }
     }
