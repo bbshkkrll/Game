@@ -12,12 +12,11 @@ public class Coins : MonoBehaviour
     void Update()
     {
         if (transform.position.y > 8f)
-            gameObject.SetActive(false);
-            //Destroy(gameObject);
+            Destroy(gameObject);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if(collision.CompareTag("Player"))
         {
             MoneyText.Coin++;
             Destroy(gameObject);
