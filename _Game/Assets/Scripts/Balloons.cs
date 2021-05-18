@@ -17,9 +17,15 @@ public class Balloons : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
-        {
-            BalloonsText.Balloon++;
-            Destroy(gameObject);
-        }
+            if (gameObject.tag != ("YellowBalloon"))
+            {
+                BalloonsText.Balloon++;
+                Destroy(gameObject);
+            }
+            else 
+            {
+                BalloonsText.Balloon += 3;
+                Destroy(gameObject);
+            }
     }
 }

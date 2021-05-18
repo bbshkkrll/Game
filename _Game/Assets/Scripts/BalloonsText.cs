@@ -6,14 +6,14 @@ using UnityEngine.UI;
 public class BalloonsText : MonoBehaviour
 {
     public static int Balloon;
-    Text text;
+    Text Redtext;
     void Start()
     {
-        text = GetComponent<Text>();
+        Redtext = GetComponent<Text>();
     }
 
     void Update()
     {
-        text.text = Balloon.ToString();
+        Redtext.text = Balloon.ToString();
     }
 }
