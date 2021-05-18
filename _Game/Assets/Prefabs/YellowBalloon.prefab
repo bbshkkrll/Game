@@ -9,14 +9,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 506330170427758821}
-  - component: {fileID: 59382222521761418}
+  - component: {fileID: -3215374136712210814}
   - component: {fileID: 506330170427758819}
   - component: {fileID: 603747726421273924}
   - component: {fileID: 4964549293560906133}
   - component: {fileID: 2054207119667223852}
   m_Layer: 0
-  m_Name: red_balloon
-  m_TagString: Balloon
+  m_Name: YellowBalloon
+  m_TagString: YellowBalloon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35,7 +35,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &59382222521761418
+--- !u!114 &-3215374136712210814
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -87,7 +87,7 @@ SpriteRenderer:
   m_SortingLayerID: -8062095
   m_SortingLayer: 3
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: dae83693ffc34fa4a961676336f44cb7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5bf469d7ac57f6d4780230202209742a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

@@ -11,9 +11,9 @@ public class MoveObjects : MonoBehaviour
     {
         transform.Translate(Vector3.up * (speed * Time.deltaTime));
 
-        if (transform.position.y > 10.53f)
+        /*if (transform.position.y > 10.53f && gameObject.tag != ("undeleted"))
         {
             Destroy(gameObject);
-        }
+        }*/
     }
 }
