@@ -26,6 +26,8 @@ public class MoveSky : MonoBehaviour
             {
                 isSpanw = false;
                 Instantiate(sky, new Vector2(0, -9.98f), Quaternion.identity);
+                /*if (transform.position.y >= 15.9f)
+                    Destroy(gameObject);*/
             }
         }
         else
@@ -34,8 +36,6 @@ public class MoveSky : MonoBehaviour
             {
                 Instantiate(finishSky, new Vector2(0, -9.98f), Quaternion.identity);
                 isFinishNotSpawned = false;
-                if (transform.position.y >= 10.9f)
-                    Destroy(gameObject);
             }
         }
     }
