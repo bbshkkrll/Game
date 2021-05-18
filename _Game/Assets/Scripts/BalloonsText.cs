@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class BalloonsText : MonoBehaviour
 {
     public static int Balloon;
-    Text Redtext;
+    static Text Redtext;
     void Start()
     {
         Redtext = GetComponent<Text>();
@@ -15,5 +15,10 @@ public class BalloonsText : MonoBehaviour
     void Update()
     {
         Redtext.text = Balloon.ToString();
+    }
+
+    public static void ResetCount()
+    {
+        Balloon = 0;
     }
 }

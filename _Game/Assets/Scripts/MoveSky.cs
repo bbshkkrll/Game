@@ -11,7 +11,7 @@ public class MoveSky : MonoBehaviour
     public int finishCount = 2;
     public float speed = 2f;
 
-    private static bool isFinishNotSpawned = true;
+    public static bool isFinishNotSpawned = true;
 
     private bool isSpanw = true;
 

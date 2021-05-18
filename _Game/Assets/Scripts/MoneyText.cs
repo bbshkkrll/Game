@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class MoneyText : MonoBehaviour
 {
     public static int Coin;
-    Text text;
+    static Text text;
     void Start()
     {
         text = GetComponent<Text>();
@@ -15,5 +15,9 @@ public class MoneyText : MonoBehaviour
     void Update()
     {
         text.text = Coin.ToString();
+    }
+    public static void ResetCount()
+    {
+        Coin = 0;
     }
 }

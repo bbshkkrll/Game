@@ -16,8 +16,13 @@ public class Spawncoins : MonoBehaviour
     }
     IEnumerator SpawnCoins()
     {
-        while (MoneyText.Coin < finishCount)
+        while (true)
         {
+            if (LevelEnded.IsRestarted)
+            {
+                LevelEnded.IsRestarted = !LevelEnded.IsRestarted;
+                MoneyText.Coin = 0;
+            }
             Instantiate(coins[Random.Range(0, coins.Length - 1)],
                 new Vector3(Random.Range(-8f, 8f), -5.5f, 0),
                 Quaternion.identity);
