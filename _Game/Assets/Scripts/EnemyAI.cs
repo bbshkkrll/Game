@@ -15,24 +15,22 @@ public class EnemyAI : MonoBehaviour
     private Path path;
     private int currentWayPoint = 0;
 
-    private bool reachedEndOfPath = false;
+    //private bool reachedEndOfPath = false;
 
     private Seeker seeker;
 
     private Rigidbody2D rb;
-    // Start is called before the first frame update
+
     void Start()
     {
         seeker = GetComponent<Seeker>();
         rb = GetComponent<Rigidbody2D>();
-
-        
         InvokeRepeating("UpdatePath", 0f,.5f);
     }
 
     void UpdatePath()
     {
-        if (seeker.IsDone())
+        if (seeker.IsDone() && Player.isPlayerAlive)
             seeker.StartPath(rb.position, target.position, IsPathComplite);
     }
     void IsPathComplite(Path p)
@@ -43,7 +41,6 @@ public class EnemyAI : MonoBehaviour
             currentWayPoint = 0;
         }
     }
-    // Update is called once per frame
     void FixedUpdate()
     {
         if (path == null)
@@ -51,10 +48,10 @@ public class EnemyAI : MonoBehaviour
 
         if (currentWayPoint >= path.vectorPath.Count)
         {
-            reachedEndOfPath = true;
+            //reachedEndOfPath = true;
             return;
         }
-        reachedEndOfPath = false;
+        //reachedEndOfPath = false;
 
         var direction = ((Vector2) path.vectorPath[currentWayPoint] - rb.position).normalized;
         var force = direction * speed * Time.deltaTime;
@@ -64,9 +61,7 @@ public class EnemyAI : MonoBehaviour
         var distance = Vector2.Distance(rb.position, path.vectorPath[currentWayPoint]);
 
         if (distance < nextWaypointDistance)
-        {
             currentWayPoint++;
-        }
 
         if (force.x >= 0.01f)
             EnemyGFX.localScale = new Vector3(-1f, 1f, 1f);

@@ -6,37 +6,33 @@ public class SpawnBalloons : MonoBehaviour
 {
     public GameObject[] RedBalloons;
     public GameObject[] YellowBalloons;
-    public float time = 9f;
-    public int finishCount = 5;
-    public float spawnRate = 0.1f;
-    public float nextSpawnTime = 0f;
-    private int yor = 0;
 
-    void Update()
+    public float time = 2f;
+    private int yor = 0;
+    public static bool isSpawnerCalled = false;
+
+    void Start()
     {
-        if (Time.time >= nextSpawnTime)
-            if (yor % 5 != 0)
-            {
-                StartCoroutine(SpawnRedBalloons(RedBalloons));
-                nextSpawnTime = Time.time + 1f / spawnRate;
-                yor++;
-            }
-            else
-            {
-                StartCoroutine(SpawnRedBalloons(YellowBalloons));
-                nextSpawnTime = Time.time + 1f / spawnRate;
-                yor++;
-            }
+        StartCoroutine(SpawnRedBalloons(RedBalloons, YellowBalloons));
     }
 
-    IEnumerator SpawnRedBalloons(GameObject[] balloons)
+    IEnumerator SpawnRedBalloons(GameObject[] red, GameObject[] yellow)
     {
-        while (MoneyText.Coin < finishCount)
+        while (true)
         {
-            Instantiate(balloons[Random.Range(0, balloons.Length - 1)],
-            new Vector3(Random.Range(-8f, 8f), -5.5f, 0),
-            Quaternion.identity);
+            if (yor % 5 != 0)
+                CreateObjects(red);
+            else
+                CreateObjects(yellow);
+
+            yor++;
             yield return new WaitForSeconds(time);
         }
     }
+    public void CreateObjects(GameObject[] balloons) 
+        => Instantiate(balloons[0],
+           new Vector3(Random.Range(-8f, 8f), -5.5f, 0),
+           Quaternion.identity);
+   
+   
 }
