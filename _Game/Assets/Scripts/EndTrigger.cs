@@ -20,10 +20,7 @@ public class EndTrigger : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player")){
-            //gameManager.CompleteLevel();
-            //Debug.Log("WIN!");
+        if (other.gameObject.CompareTag("Player"))
             isContacted = true;
-        }
     }
 }

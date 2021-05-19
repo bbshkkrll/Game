@@ -12,7 +12,8 @@ public class Player : MonoBehaviour
     private bool trigger;
 
     public GameManagger eventManager;
-        
+
+    public static bool isPlayerAlive = true;
         
     public float speed = 5f;
 
@@ -47,6 +48,7 @@ public class Player : MonoBehaviour
         currentHealth -= dmg * Time.deltaTime;
         if (currentHealth < 0)
         {
+            isPlayerAlive = false;
             currentHealth = 0;
             eventManager.EndGame();
             Destroy(gameObject);

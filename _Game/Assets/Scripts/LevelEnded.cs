@@ -18,13 +18,16 @@ public class LevelEnded : MonoBehaviour
 
     private static void ResetLevel(int sceneIndex)
     {
+        SceneManager.LoadScene(sceneIndex);
         Time.timeScale = 1f;
         IsRestarted = true; 
         BalloonsText.ResetCount(); 
         MoneyText.ResetCount(); 
-        SceneManager.LoadScene(sceneIndex);
         MoveSky.isFinishNotSpawned = true;
         EndTrigger.time = 3.5f;
         EndTrigger.isContacted = false;
+        SpawnBalloons.isSpawnerCalled = false;
+        Coins.isCoinCollected = false;
+        Player.isPlayerAlive = true;
     }
 }

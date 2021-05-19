@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Coins : MonoBehaviour
 {
+    public static bool isCoinCollected = false;
     void Start()
     {
 
@@ -19,6 +20,7 @@ public class Coins : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             MoneyText.Coin++;
+            isCoinCollected = true;
             Destroy(gameObject);
         }
     }
