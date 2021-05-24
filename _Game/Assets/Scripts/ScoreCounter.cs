@@ -16,7 +16,7 @@ public class ScoreCounter : MonoBehaviour
     }
     void Update()
     {
-        if (Time.time >= ToNext)
+        if (Time.time >= ToNext && Player.isPlayerAlive)
         {
             Score += 1;
             ScoreText.GetComponent<Text>().text = "Score: " + Score.ToString();

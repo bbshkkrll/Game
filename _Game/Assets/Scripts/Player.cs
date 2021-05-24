@@ -35,7 +35,7 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (trigger)
+        if (trigger && !Shield.isShieldActieve)
         {
             TakeDamage(50);
         }
@@ -45,7 +45,7 @@ public class Player : MonoBehaviour
     private void TakeDamage(float dmg)
     {
         healthBar.SetHealth(currentHealth);
-        
+
         currentHealth -= dmg * Time.deltaTime;
         if (currentHealth < 0)
         {
@@ -58,17 +58,18 @@ public class Player : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Bird"))
+        if (collision.gameObject.CompareTag("Bird") && !Shield.isShieldActieve)
         {
+            Debug.Log("asd");
             trigger = true;
              TakeDamage(50);
-            
+            //че зыриш глаза пузириш))0)
         }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Bird"))
+        if (!other.gameObject.CompareTag("Bird") && !Shield.isShieldActieve)
         {
             trigger = false;
         }

@@ -17,7 +17,7 @@ public class EnemyGravity : MonoBehaviour
         if (other.gameObject.CompareTag("Shield"))
         {
             rigidbody2D.gravityScale = 10f;
-            
         }
     }
+
 }

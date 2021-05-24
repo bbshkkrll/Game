@@ -23,7 +23,4 @@ public class Enabler : MonoBehaviour
                     break;
                 }
     }
-
-
-    
 }
