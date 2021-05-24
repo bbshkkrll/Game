@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
     private bool trigger;
 
     public GameManagger eventManager;
-    public GameObject pinkCircle;
+    //public GameObject pinkCircle;
 
     public static bool isPlayerAlive = true;
         
@@ -73,6 +73,4 @@ public class Player : MonoBehaviour
             trigger = false;
         }
     }
-    
-    
 }

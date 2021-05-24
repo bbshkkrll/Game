@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee554c8b-037d-4a44-9a21-7f55d1ff18a9" name="Default Changelist" comment="Add a">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Balloons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Balloons.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,13 +49,15 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/BalloonsText.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MoneyText.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Spawncoins.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/EndTrigger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MoveSky.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/LevelEnded.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Shield.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Balloons.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GraphVertexInfo.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Graph.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EndTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyGravity.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1r7g5vRgjz0kbKAvf5pxGTYm7Xz" />
@@ -139,7 +138,7 @@
       <workItem from="1621354156257" duration="5757000" />
       <workItem from="1621572264224" duration="3532000" />
       <workItem from="1621597526926" duration="852000" />
-      <workItem from="1621842018003" duration="1603000" />
+      <workItem from="1621842018003" duration="6051000" />
     </task>
     <servers />
   </component>
