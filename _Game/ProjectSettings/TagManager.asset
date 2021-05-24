@@ -8,6 +8,8 @@ TagManager:
   - Bird
   - Coin
   - YellowBalloon
+  - undeleted
+  - Shield
   layers:
   - Default
   - TransparentFX
