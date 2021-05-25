@@ -24,7 +24,7 @@ public class Spawncoins : MonoBehaviour
                 MoneyText.Coin = 0;
             }
             Instantiate(coins[Random.Range(0, coins.Length - 1)],
-                new Vector3(Random.Range(-8f, 8f), -5.5f, 0),
+                new Vector3(Random.Range(-7.5f, 7.5f), -5.5f, 0),
                 Quaternion.identity);
             yield return new WaitForSeconds(time);
         }

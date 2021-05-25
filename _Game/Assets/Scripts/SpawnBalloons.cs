@@ -31,6 +31,6 @@ public class SpawnBalloons : MonoBehaviour
     }
     public void CreateObjects(GameObject[] balloons) 
         => Instantiate(balloons[0],
-           new Vector3(Random.Range(-8f, 8f), -5.5f, 0),
+           new Vector3(Random.Range(-7.5f, 7.5f), -5.5f, 0),
            Quaternion.identity);
 }
