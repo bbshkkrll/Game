@@ -5,7 +5,7 @@ using UnityEngine;
 /// <summary>
 /// Вершина графа
 /// </summary>
-public class GraphVertex : MonoBehaviour
+public class GraphVertex
 {
     /// <summary>
     /// Название вершины

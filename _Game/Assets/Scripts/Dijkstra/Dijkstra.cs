@@ -5,7 +5,7 @@ using UnityEngine;
 /// <summary>
 /// Алгоритм Дейкстры
 /// </summary>
-public class Dijkstra : MonoBehaviour
+public class Dijkstra
 {
     public Graph graph;
 

@@ -5,7 +5,7 @@ using UnityEngine;
 /// <summary>
 /// Ребро графа
 /// </summary>
-public class GraphEdge : MonoBehaviour
+public class GraphEdge
 {
     /// <summary>
     /// Связанная вершина

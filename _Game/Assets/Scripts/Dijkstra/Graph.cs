@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 
 
-public class Graph : MonoBehaviour
+public class Graph
 {
     /// <summary>
     /// Список вершин графа

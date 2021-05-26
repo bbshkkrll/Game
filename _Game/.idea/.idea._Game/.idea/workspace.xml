@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee554c8b-037d-4a44-9a21-7f55d1ff18a9" name="Default Changelist" comment="Add a">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Dijkstra.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Dijkstra.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Graph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Graph.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphEdge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphEdge.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphVertex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphVertex.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphVertexInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphVertexInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyGFX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyGFX.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +54,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/HeroSats.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyGFX.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/NewGameMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManagger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/BalloonsText.cs" />
@@ -54,10 +64,18 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Shield.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Balloons.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GraphVertexInfo.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Graph.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EndTrigger.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyGravity.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphVertexInfo.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphEdge.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphVertex.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Graph.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Dijkstra.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyGFX.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/StartDijkstra.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Vertex.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/StartPath.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1r7g5vRgjz0kbKAvf5pxGTYm7Xz" />
@@ -78,7 +96,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="ReSpellerSettingsId" />
+    <property name="settings.editor.selected.configurable" value="Inspections-C#" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -86,6 +104,7 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -95,6 +114,7 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -139,6 +159,7 @@
       <workItem from="1621572264224" duration="3532000" />
       <workItem from="1621597526926" duration="852000" />
       <workItem from="1621842018003" duration="6051000" />
+      <workItem from="1622023340291" duration="18376000" />
     </task>
     <servers />
   </component>
@@ -161,5 +182,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/SpawnBalloons.cs</url>
+          <line>7</line>
+          <properties documentPath="D:\Game\Game_\_Game\Assets\Scripts\SpawnBalloons.cs" initialLine="7" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -4,7 +4,7 @@ using UnityEngine;
 /// <summary>
 /// Информация о вершине
 /// </summary>
-public class GraphVertexInfo : MonoBehaviour
+public class GraphVertexInfo
 {
     /// <summary>
     /// Вершина
