@@ -11,6 +11,7 @@ TagManager:
   - undeleted
   - Shield
   - Body
+  - Point
   layers:
   - Default
   - TransparentFX

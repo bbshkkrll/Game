@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee554c8b-037d-4a44-9a21-7f55d1ff18a9" name="Default Changelist" comment="Add a">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/point.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/point.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Dijkstra.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Dijkstra.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Graph.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Graph.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphEdge.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphEdge.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphVertex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphVertex.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphVertexInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphVertexInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyGFX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyGFX.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/StartDijkstra.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/StartDijkstra.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Vertex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Vertex.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartPath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartPath.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +28,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyGFX.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyGFX.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -70,11 +64,12 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphEdge.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphVertex.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Graph.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Dijkstra.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyGFX.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/StartDijkstra.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Dijkstra.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Vertex.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FindCurrentPoint.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/StartPath.cs" />
     </changedPaths>
   </component>
@@ -160,6 +155,8 @@
       <workItem from="1621597526926" duration="852000" />
       <workItem from="1621842018003" duration="6051000" />
       <workItem from="1622023340291" duration="18376000" />
+      <workItem from="1622091116074" duration="425000" />
+      <workItem from="1622092059536" duration="7031000" />
     </task>
     <servers />
   </component>
@@ -191,12 +188,6 @@
           <line>7</line>
           <properties documentPath="D:\Game\Game_\_Game\Assets\Scripts\SpawnBalloons.cs" initialLine="7" isMultiMethodBreakpoint="true">
             <option name="multiMethodBreakpoint" value="true" />
-            <startOffsets>
-              <option value="-1" />
-            </startOffsets>
-            <endOffsets>
-              <option value="-1" />
-            </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>

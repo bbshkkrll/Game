@@ -5,13 +5,13 @@ using UnityEngine;
 
 public class Vertex : MonoBehaviour
 {
-    public static bool needRefreshPath = true;
+    public static bool needRefreshPath = false;
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Body"))
         {
             StartDijkstra.isTriggered[gameObject.name] = true;
-            needRefreshPath = false;
+            needRefreshPath = true;
         }
     }
 
@@ -20,8 +20,7 @@ public class Vertex : MonoBehaviour
         if (other.gameObject.CompareTag("Body"))
         {
             StartDijkstra.isTriggered[gameObject.name] = false;
-            needRefreshPath = true;
+            needRefreshPath = false;
         }
     }
-    
 }

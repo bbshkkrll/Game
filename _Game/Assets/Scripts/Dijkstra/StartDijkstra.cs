@@ -18,7 +18,7 @@ public class StartDijkstra : MonoBehaviour
     //private static List<Transform> transforms;
 
     private Graph graph;
-    //public static string path;
+    public static string path;
     public static List<string> parsedPath;
     public static Dijkstra dijkstra;
 
@@ -44,8 +44,8 @@ public class StartDijkstra : MonoBehaviour
             isTriggered.Add("point" + i, false);
             objectToString.Add(points[i], "point" + i);
             stringToObject.Add("point" + i, points[i]);
-            vertexes.Add("point" + i.ToString() + " ");
-            graph.AddVertex("point" + i.ToString() + " ");
+            vertexes.Add("point" + i + " ");
+            graph.AddVertex("point" + i + " ");
         }
         graph.AddEdge("point0 ", "point1 ", 1);
         graph.AddEdge("point1 ", "point2 ", 1);
@@ -63,11 +63,11 @@ public class StartDijkstra : MonoBehaviour
         graph.AddEdge("point7 ", "point6 ", 1);
         
         dijkstra = new Dijkstra(graph); 
-        /*path = dijkstra.FindShortestPath("point1 ", "point9 ");
+        path = dijkstra.FindShortestPath("point1 ", "point9 ");
         parsedPath = path.Split(' ').ToList();
         parsedPath.RemoveAt(parsedPath.Count - 1);
         Debug.Log(path);
-        foreach (var e in parsedPath) Debug.Log(e);*/
+        foreach (var e in parsedPath) Debug.Log(e);
     }
     
 }
