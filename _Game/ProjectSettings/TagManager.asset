@@ -12,6 +12,7 @@ TagManager:
   - Shield
   - Body
   - Point
+  - Wind
   layers:
   - Default
   - TransparentFX

@@ -15,7 +15,7 @@ public class GraphVertex
     /// <summary>
     /// Список ребер
     /// </summary>
-    public List<GraphEdge> Edges { get; }
+    public List<GraphEdge> Edges { get; set; }
 
     /// <summary>
     /// Конструктор

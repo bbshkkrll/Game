@@ -15,7 +15,7 @@ public class GraphEdge
     /// <summary>
     /// Вес ребра
     /// </summary>
-    public int EdgeWeight { get; }
+    public int EdgeWeight { get; set; }
 
     /// <summary>
     /// Конструктор
