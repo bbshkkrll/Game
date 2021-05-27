@@ -84,10 +84,4 @@ public class StartPath : MonoBehaviour
 
         return defaultPosition;
     }
-
-    public static void MoveToNextPoint(List<string> path, int count)
-    {
-        
-    }
-    
 }
