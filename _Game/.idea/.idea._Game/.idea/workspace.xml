@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ee554c8b-037d-4a44-9a21-7f55d1ff18a9" name="Default Changelist" comment="Add a">
+    <list default="true" id="ee554c8b-037d-4a44-9a21-7f55d1ff18a9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/point.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/point.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Vertex.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Vertex.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Wind.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Wind.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/StartPath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/StartPath.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveObjects.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/HeathBarScript.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/SpawnBalloons.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/MoveObjects.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MoveAndSpawnSky.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Enabler.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/HealthBar.cs" />
@@ -68,9 +65,13 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Dijkstra.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/FindCurrentPoint.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/StartPath.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Wind.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Vertex.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/VertexTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Wind.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/WIndSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MoveObjects.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/WindSpawner.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/MoveWind.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1r7g5vRgjz0kbKAvf5pxGTYm7Xz" />
@@ -157,7 +158,8 @@
       <workItem from="1622023340291" duration="18376000" />
       <workItem from="1622091116074" duration="425000" />
       <workItem from="1622092059536" duration="7031000" />
-      <workItem from="1622135634707" duration="4323000" />
+      <workItem from="1622135634707" duration="5476000" />
+      <workItem from="1622211136537" duration="803000" />
     </task>
     <servers />
   </component>

@@ -17,6 +17,7 @@ public class Wind : MonoBehaviour
         for (var i = 0; i < Points.Count; i++)
         {
             PointsTrigger.Add("point" + i, false);
+            Debug.Log(i);
         }
 
         /*gameObject.transform.position = new Vector3(pointStart.transform.position.x,
@@ -33,7 +34,7 @@ public class Wind : MonoBehaviour
             if (e.Value)
             {
                 StartDijkstra.graph.FindVertex(e.Key + ' ').Edges.ForEach(x => x.EdgeWeight += 50);
-
+                Debug.Log("Зашел");
                 needRefresh.Add(e.Key);
             }
         }
