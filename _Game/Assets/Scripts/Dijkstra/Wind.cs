@@ -14,10 +14,14 @@ public class Wind : MonoBehaviour
     public void Start()
     {
         PointsTrigger = new Dictionary<string, bool>();
-        for (var i = 0; i < Points.Count; i++)
+       /* for (var i = 0; i < Points.Count; i++)
         {
             PointsTrigger.Add("point" + i, false);
             Debug.Log(i);
+        }*/
+        foreach(var point in Points)
+        {
+            PointsTrigger.Add(point.name, false);
         }
 
         /*gameObject.transform.position = new Vector3(pointStart.transform.position.x,
