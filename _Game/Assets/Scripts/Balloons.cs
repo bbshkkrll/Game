@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class Balloons : MonoBehaviour
 {
-    void Start()
-    {
-
-    }
-
     void Update()
     {
         if (transform.position.y > 8f)

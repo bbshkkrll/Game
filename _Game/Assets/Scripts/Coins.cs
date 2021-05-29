@@ -5,10 +5,6 @@ using UnityEngine;
 public class Coins : MonoBehaviour
 {
     public static bool isCoinCollected = false;
-    void Start()
-    {
-
-    }
 
     void Update()
     {

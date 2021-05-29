@@ -30,12 +30,4 @@ public class Shield : MonoBehaviour
         }
         
     }
-
-/*    public void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.CompareTag("Bird"))
-        {
-            Destroy(other);
-        }
-    }*/
 }

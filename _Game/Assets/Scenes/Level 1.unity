@@ -182,6 +182,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2919873470175473020, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: m_TagString
+      value: Bird
+      objectReference: {fileID: 0}
     - target: {fileID: 2919873470175473023, guid: 646e44db911232c459174e38bed32933, type: 3}
       propertyPath: target
       value: 
@@ -190,6 +194,10 @@ PrefabInstance:
       propertyPath: aiPath
       value: 
       objectReference: {fileID: 1467326267}
+    - target: {fileID: 5329431745997264326, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: nextPoint
+      value: 
+      objectReference: {fileID: 205960129}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 646e44db911232c459174e38bed32933, type: 3}
 --- !u!1001 &64723803
@@ -2813,7 +2821,7 @@ MonoBehaviour:
   currentHealth: 0
   healthBar: {fileID: 1517856613}
   eventManager: {fileID: 371476752}
-  speed: 7
+  speed: 5
 --- !u!61 &730718266
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3224,7 +3232,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   winds:
   - {fileID: 5736521537895106172, guid: 5070e078b03fc5349b17646a26d84583, type: 3}
-  time: 10
+  time: 30
 --- !u!1 &893647534 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2919873470175473020, guid: 646e44db911232c459174e38bed32933, type: 3}
@@ -3319,8 +3327,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c278a02c6a6f1444afe2394c1df0cca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
-  nextPoint: {fileID: 997302439}
+  speed: 2
+  nextPoint: {fileID: 205960129}
   previousPoint: {fileID: 0}
 --- !u!114 &930957291
 MonoBehaviour:
@@ -4276,6 +4284,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2919873470175473020, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: m_TagString
+      value: Bird
+      objectReference: {fileID: 0}
     - target: {fileID: 2919873470175473023, guid: 646e44db911232c459174e38bed32933, type: 3}
       propertyPath: target
       value: 
@@ -4284,6 +4296,10 @@ PrefabInstance:
       propertyPath: aiPath
       value: 
       objectReference: {fileID: 1467326267}
+    - target: {fileID: 5329431745997264326, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: nextPoint
+      value: 
+      objectReference: {fileID: 1760082929}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 646e44db911232c459174e38bed32933, type: 3}
 --- !u!1001 &1114162778
@@ -4554,6 +4570,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2919873470175473020, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: m_TagString
+      value: Bird
+      objectReference: {fileID: 0}
     - target: {fileID: 2919873470175473023, guid: 646e44db911232c459174e38bed32933, type: 3}
       propertyPath: target
       value: 
@@ -4562,6 +4582,10 @@ PrefabInstance:
       propertyPath: aiPath
       value: 
       objectReference: {fileID: 1467326267}
+    - target: {fileID: 5329431745997264326, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: nextPoint
+      value: 
+      objectReference: {fileID: 1961623091}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 646e44db911232c459174e38bed32933, type: 3}
 --- !u!1001 &1223331640
@@ -4700,6 +4724,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2919873470175473020, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: m_TagString
+      value: Bird
+      objectReference: {fileID: 0}
     - target: {fileID: 2919873470175473023, guid: 646e44db911232c459174e38bed32933, type: 3}
       propertyPath: target
       value: 
@@ -4708,6 +4736,10 @@ PrefabInstance:
       propertyPath: aiPath
       value: 
       objectReference: {fileID: 1467326267}
+    - target: {fileID: 5329431745997264326, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: nextPoint
+      value: 
+      objectReference: {fileID: 205960129}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 646e44db911232c459174e38bed32933, type: 3}
 --- !u!1001 &1373439405
@@ -4868,11 +4900,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2764995133376111075, guid: da3aa527218b97f4cbaeb2b4f74ef4da, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.91
+      value: -7.76
       objectReference: {fileID: 0}
     - target: {fileID: 2764995133376111075, guid: da3aa527218b97f4cbaeb2b4f74ef4da, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.92
+      value: -6.39
       objectReference: {fileID: 0}
     - target: {fileID: 2764995133376111075, guid: da3aa527218b97f4cbaeb2b4f74ef4da, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5337,6 +5369,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2919873470175473020, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: m_TagString
+      value: Bird
+      objectReference: {fileID: 0}
     - target: {fileID: 2919873470175473023, guid: 646e44db911232c459174e38bed32933, type: 3}
       propertyPath: target
       value: 
@@ -5345,6 +5381,10 @@ PrefabInstance:
       propertyPath: aiPath
       value: 
       objectReference: {fileID: 1467326267}
+    - target: {fileID: 5329431745997264326, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: nextPoint
+      value: 
+      objectReference: {fileID: 206016609}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 646e44db911232c459174e38bed32933, type: 3}
 --- !u!1001 &1547847785
@@ -5530,6 +5570,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2919873470175473020, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: m_TagString
+      value: Bird
+      objectReference: {fileID: 0}
     - target: {fileID: 2919873470175473023, guid: 646e44db911232c459174e38bed32933, type: 3}
       propertyPath: target
       value: 
@@ -5538,6 +5582,10 @@ PrefabInstance:
       propertyPath: aiPath
       value: 
       objectReference: {fileID: 1467326267}
+    - target: {fileID: 5329431745997264326, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: nextPoint
+      value: 
+      objectReference: {fileID: 2118298914}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 646e44db911232c459174e38bed32933, type: 3}
 --- !u!1 &1605284675
@@ -6364,6 +6412,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2919873470175473020, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: m_TagString
+      value: Bird
+      objectReference: {fileID: 0}
     - target: {fileID: 2919873470175473023, guid: 646e44db911232c459174e38bed32933, type: 3}
       propertyPath: target
       value: 
@@ -6372,6 +6424,10 @@ PrefabInstance:
       propertyPath: aiPath
       value: 
       objectReference: {fileID: 1467326267}
+    - target: {fileID: 5329431745997264326, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: nextPoint
+      value: 
+      objectReference: {fileID: 178409702}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 646e44db911232c459174e38bed32933, type: 3}
 --- !u!1 &1781690039
@@ -6518,6 +6574,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2919873470175473020, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: m_TagString
+      value: Bird
+      objectReference: {fileID: 0}
     - target: {fileID: 2919873470175473023, guid: 646e44db911232c459174e38bed32933, type: 3}
       propertyPath: target
       value: 
@@ -6526,6 +6586,10 @@ PrefabInstance:
       propertyPath: aiPath
       value: 
       objectReference: {fileID: 1467326267}
+    - target: {fileID: 5329431745997264326, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: nextPoint
+      value: 
+      objectReference: {fileID: 178409702}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 646e44db911232c459174e38bed32933, type: 3}
 --- !u!1001 &1872263881
@@ -6763,6 +6827,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2919873470175473020, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: m_TagString
+      value: Bird
+      objectReference: {fileID: 0}
     - target: {fileID: 2919873470175473023, guid: 646e44db911232c459174e38bed32933, type: 3}
       propertyPath: target
       value: 
@@ -6771,6 +6839,10 @@ PrefabInstance:
       propertyPath: aiPath
       value: 
       objectReference: {fileID: 1467326267}
+    - target: {fileID: 5329431745997264326, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: nextPoint
+      value: 
+      objectReference: {fileID: 206016609}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 646e44db911232c459174e38bed32933, type: 3}
 --- !u!1 &1985597310 stripped
@@ -7434,6 +7506,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2919873470175473020, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: m_TagString
+      value: Bird
+      objectReference: {fileID: 0}
     - target: {fileID: 2919873470175473023, guid: 646e44db911232c459174e38bed32933, type: 3}
       propertyPath: target
       value: 
@@ -7442,6 +7518,10 @@ PrefabInstance:
       propertyPath: aiPath
       value: 
       objectReference: {fileID: 1467326267}
+    - target: {fileID: 5329431745997264326, guid: 646e44db911232c459174e38bed32933, type: 3}
+      propertyPath: nextPoint
+      value: 
+      objectReference: {fileID: 998260331}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 646e44db911232c459174e38bed32933, type: 3}
 --- !u!1001 &3925951499804472276

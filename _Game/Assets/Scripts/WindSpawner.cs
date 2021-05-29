@@ -5,7 +5,7 @@ using UnityEngine;
 public class WindSpawner : MonoBehaviour
 {
         public GameObject[] winds;
-        public float time = 3f;
+        public float time = 20f;
         
         void Start()
         {
@@ -16,13 +16,12 @@ public class WindSpawner : MonoBehaviour
             while (true)
             {
                 if (LevelEnded.IsRestarted)
-                {
                     LevelEnded.IsRestarted = !LevelEnded.IsRestarted;
-                    MoneyText.Coin = 0;
-                }
+
                 Instantiate(winds[Random.Range(0, winds.Length - 1)],
-                    new Vector3(-11f, Random.Range(-3f,3f), 0),
+                    new Vector3(-11f, Random.Range(-5f,3.5f), 0),
                     Quaternion.identity);
+
                 yield return new WaitForSeconds(time);
             }
         }

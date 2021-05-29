@@ -35,15 +35,6 @@ public class StartDijkstra : MonoBehaviour
         stringToObject = new Dictionary<string, GameObject>();
         vertexes = new List<string>();
 
-        /*  for (var i = 0; i < points.Count; i++)
-          {
-              Debug.Log(points[i].name + 'q');
-              isTriggered.Add("point" + i, false);
-              objectToString.Add(points[i], "point" + i);
-              stringToObject.Add("point" + i, points[i]);
-              vertexes.Add("point" + i + " ");
-              graph.AddVertex("point" + i + " ");
-          }*/
         foreach (var point in points)
         {
             Debug.Log(point.name);
@@ -132,7 +123,7 @@ public class StartDijkstra : MonoBehaviour
 
 
         dijkstra = new Dijkstra(graph); 
-        path = dijkstra.FindShortestPath("point2 ", "point2 ");
+        path = dijkstra.FindShortestPath("point5 ", "point5 ");
         parsedPath = path.Split(' ').ToList();
         parsedPath.RemoveAt(parsedPath.Count - 1);
         Debug.Log(path);
