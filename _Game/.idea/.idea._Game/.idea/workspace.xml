@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee554c8b-037d-4a44-9a21-7f55d1ff18a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AudiPlayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AudiPlayer.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea._Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/point.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/point.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Wind.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Wind.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MoveObjects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MoveObjects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +62,6 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphEdge.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/GraphVertex.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Graph.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyGFX.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/StartDijkstra.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Dijkstra/Dijkstra.cs" />
@@ -72,6 +74,9 @@
       <option value="$PROJECT_DIR$/Assets/Scripts/MoveObjects.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/WindSpawner.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MoveWind.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/BlueBirdGFX.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyGFX.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AudioPlayer.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1r7g5vRgjz0kbKAvf5pxGTYm7Xz" />
@@ -160,6 +165,7 @@
       <workItem from="1622092059536" duration="7031000" />
       <workItem from="1622135634707" duration="5476000" />
       <workItem from="1622211136537" duration="803000" />
+      <workItem from="1622304735584" duration="2520000" />
     </task>
     <servers />
   </component>
