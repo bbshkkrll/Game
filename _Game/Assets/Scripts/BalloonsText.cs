@@ -14,7 +14,7 @@ public class BalloonsText : MonoBehaviour
 
     void Update()
     {
-        Redtext.text = Balloon.ToString();
+        Redtext.text = Balloon.ToString() + "/10";
     }
 
     public static void ResetCount()

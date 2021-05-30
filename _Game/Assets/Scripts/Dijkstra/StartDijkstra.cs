@@ -22,7 +22,9 @@ public class StartDijkstra : MonoBehaviour
     public static List<string> parsedPath;
     public static Dijkstra dijkstra;
 
-
+    public static Queue<string> queuePath;
+    
+    
     public static List<string> path2;
 
 
@@ -34,6 +36,7 @@ public class StartDijkstra : MonoBehaviour
         objectToString = new Dictionary<GameObject, string>();
         stringToObject = new Dictionary<string, GameObject>();
         vertexes = new List<string>();
+        queuePath = new Queue<string>();
 
         foreach (var point in points)
         {
@@ -126,6 +129,10 @@ public class StartDijkstra : MonoBehaviour
         path = dijkstra.FindShortestPath("point5 ", "point5 ");
         parsedPath = path.Split(' ').ToList();
         parsedPath.RemoveAt(parsedPath.Count - 1);
+        foreach (var point in parsedPath)
+        {
+            queuePath.Enqueue(point);
+        }
         Debug.Log(path);
         foreach (var e in parsedPath) Debug.Log(e);
     }

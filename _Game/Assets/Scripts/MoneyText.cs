@@ -14,7 +14,7 @@ public class MoneyText : MonoBehaviour
 
     void Update()
     {
-        text.text = Coin.ToString();
+        text.text = Coin.ToString() + '/' + MoveSky.finishCount;
     }
     public static void ResetCount()
     {

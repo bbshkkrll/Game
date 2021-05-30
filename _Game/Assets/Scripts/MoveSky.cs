@@ -8,7 +8,7 @@ public class MoveSky : MonoBehaviour
 {
     public GameObject sky;
     public GameObject finishSky;
-    public int finishCount = 2;
+    public static int finishCount = 25;
     public float speed = 2f;
 
     public static bool isFinishNotSpawned = true;
